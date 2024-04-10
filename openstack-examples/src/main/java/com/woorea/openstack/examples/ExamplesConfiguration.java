@@ -30,6 +30,7 @@ public class ExamplesConfiguration {
 		System.out.println(client.tenants().list().execute());
 		client.tenants().delete(tenant.getId()).execute();
 
+
 	}
 	
 }
